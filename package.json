@@ -1,0 +1,47 @@
+{
+  "name": "exponential-moving-average",
+  "description": "Calculate an exponential moving average from an array of numbers.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/exponential-moving-average",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/exponential-moving-average",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/exponential-moving-average/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "extend-shallow": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.2.0"
+  },
+  "keywords": [
+    "average",
+    "exponential",
+    "moving"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
