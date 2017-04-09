@@ -1,7 +1,7 @@
 {
   "name": "exponential-moving-average",
   "description": "Calculate an exponential moving average from an array of numbers.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/exponential-moving-average",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/exponential-moving-average",
