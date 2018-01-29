@@ -11,7 +11,7 @@ module.exports = function(arr, options) {
     options = { range: options };
   }
 
-  var defaults = {range: arr.length / 2, format: toFixed};
+  var defaults = {range: Math.round(arr.length / 2), format: toFixed};
   var opts = extend({}, defaults, options);
   var range = opts.range;
 
